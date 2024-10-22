@@ -141,7 +141,6 @@ public class AdvancedNewsClassifier {
         INDArray inputNDArray = null;
         INDArray outputNDArray = null;
 
-        //TODO Task 6.4 - 8 Marks
         for (ArticlesEmbedding currentArticle : listEmbedding) {
             if (currentArticle.getNewsType().equals(NewsArticles.DataType.Training)) {
                 inputNDArray = currentArticle.getEmbedding();
